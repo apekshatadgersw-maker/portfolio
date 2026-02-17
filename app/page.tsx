@@ -21,7 +21,7 @@ export default function Home() {
   // Travel images data - Categories for better organization
   const travelImages = [
     // Featured/Highlights (show in main gallery)
-    { id: 1, name:"1", category: 'major', placeholder: 'bg-gradient-to-br from-slate-700 to-slate-900' },
+    { id: 1, name:"11", category: 'major', placeholder: 'bg-gradient-to-br from-slate-700 to-slate-900' },
     { id: 2, name:"2",  category: 'major', placeholder: 'bg-gradient-to-br from-amber-700 to-orange-900' },
     { id: 3, name:"3",  placeholder: 'bg-gradient-to-br from-rose-700 to-pink-900' },
     { id: 4, name:"4",  category: 'major', placeholder: 'bg-gradient-to-br from-emerald-700 to-green-900' },
