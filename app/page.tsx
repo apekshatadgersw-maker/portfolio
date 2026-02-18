@@ -406,11 +406,68 @@ export default function Home() {
       </div>
     </section>
 
+
+    <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-zinc-50  flex justify-center overflow-hidden">  
+      {/* Soft background glow */}
+      <div className="absolute top-[-100px] right-[-100px] w-[300px] h-[300px] blur-3xl rounded-full"></div>
+      <div className="relative max-w-5xl mx-auto px-6">
+
+        {/* Title */}
+        <div className="mb-16">
+          <h2 className="text-4xl font-serif font-bold tracking-tight text-slate-900">
+             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-slate-800 via-zinc-700 to-slate-900 bg-clip-text text-transparent font-serif">
+            ✨  Learning to Belong Anywhere ✨
+          </h2>
+          </h2>
+        </div>
+
+        {/* Card */}
+        <div className="relative flex justify-center rounded-3xl shadow-2xl border border-emerald-100 p-10">
+
+          {/* Vertical accent line */}
+          <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-emerald-500 via-teal-400 to-emerald-300 rounded-l-3xl"></div>
+
+          <div className="space-y-10">
+
+            <div>
+              <h3 className="text-2xl font-serif font-semibold text-slate-900 italic mb-2">
+                Starting Without Certainty
+              </h3>
+             
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-serif font-semibold text-slate-900 italic mb-2">
+                Discipline in the Details
+              </h3>
+             
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-serif font-semibold text-slate-900 italic mb-2">
+                Adaptability as Strength
+              </h3>
+             
+            </div>
+
+            <div>
+              <h3 className="text-2xl font-serif font-semibold text-slate-900 italic mb-2">
+                Always Becoming
+              </h3>
+             
+            </div>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
     {/* Interests Section */}
     <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-zinc-50">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-slate-800 via-zinc-700 to-slate-900 bg-clip-text text-transparent font-serif">
+          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-slate-800 via-zinc-700 to-slate-900 bg-clip-text text-transparent font-serif">
             ✨ Interests & Passions ✨
           </h2>
           <p className="text-xl text-slate-600 font-light">Exploring life through diverse experiences</p>
@@ -462,7 +519,7 @@ export default function Home() {
 {/* Contact Section */}
 <section className="bg-slate-900 text-white py-4">
   <div className="max-w-4xl mx-auto px-6 text-center">
-    <h2 className="text-4xl font-bold mb-8">Let's Connect</h2>
+    <h2 className="text-4xl font-bold mb-8 mt-4">Let's Connect</h2>
     
     <div className="grid md:grid-cols-3 gap-8 mb-12">
       <div className="bg-slate-800 p-6 rounded-xl border border-slate-700">
