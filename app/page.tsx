@@ -57,7 +57,7 @@ export default function Home() {
     { 
       title: 'Agricultural Dashboard', 
       tech: 'React, TypeScript, External API',
-      desc: '',
+      desc: 'Dashboard for Agricutral Produce prediction and Farm Data Analysis ',
       category: 'analytics',
     },
     { 
